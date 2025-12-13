@@ -4,7 +4,7 @@ Hi everyone! My name is Sahana, and I’m here to teach you about React! React i
 
 ## Setup: 
 
-**The following section assumes you have Node.js and npm installed on your computer. If you don't have them installed, please visit [Node.js official website](https://nodejs.org/) to download and install the latest LTS version.**
+**The following section assumes you have Node.js and npm installed on your computer. If you don't have them installed, please visit the [Node.js official website](https://nodejs.org/) to download and install the latest LTS version.**
 
 This project uses npm@11.7.0, TypeScript, React 18, Tailwind CSS, and Next.js 13. You can create a new Next.js project with TypeScript by running the following command in your terminal:
 
@@ -167,3 +167,5 @@ export default function Home() {
 ```
 
 **If you have questions, dm @hna on Slack!**
+
+**Submit at https://forms.hackclub.com/haxmas-day-1**
