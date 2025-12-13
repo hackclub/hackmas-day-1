@@ -2,6 +2,7 @@
 
 Hi everyone! My name is Sahana, and I’m here to teach you about React! React is one of the most used libraries out there, along with Next.js, a framework using React.
 
+**Prize: $7.50 USD Domain Grant + 1 Snowflake**
 ## Setup: 
 
 **The following section assumes you have Node.js and npm installed on your computer. If you don't have them installed, please visit the [Node.js official website](https://nodejs.org/) to download and install the latest LTS version.**
