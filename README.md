@@ -2,6 +2,8 @@
 
 Hi everyone! My name is Sahana, and I’m here to teach you about React! React is one of the most used libraries out there, along with Next.js, a framework using React.
 
+You can see my project at  https://haxmas-example.sahana.dev/ :)
+
 **Prize: $7.50 USD Domain Grant + 1 Snowflake**
 ## Setup: 
 
