@@ -1,26 +1,37 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #0f472a;
+  --foreground: #f5f5f5;
+  --font-ballet: "Ballet", cursive;
+  --font-delius: "Delius", cursive;
+  --color-christmas-red: #c41e3a;
+  --color-christmas-green: #0f472a;
+  --color-christmas-gold: #ffd700;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --font-ballet: var(--font-ballet);
+  --font-delius: var(--font-delius);
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --background: #0f472a;
+    --foreground: #f5f5f5;
   }
 }
 
 body {
-  background: var(--background);
+  background: linear-gradient(135deg, var(--background) 0%, #1a5a3a 100%);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-delius), Arial, Helvetica, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-ballet), cursive;
+  color: var(--color-christmas-gold);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
